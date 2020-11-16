@@ -1,9 +1,10 @@
 # Copyright 2015-2019 Sean Nelson <audiohacked@gmail.com>
+# Forked & Updated ver No# - Elshender
 FROM audiohacked/ftb_base:latest
-LABEL maintainer="audiohacked@gmail.com"
+LABEL maintainer="elshender@gmail.com"
 
 ARG MODPACK="FTBPresentsStoneblock2"
-ARG FTB_VERSION="1_16_0"
+ARG FTB_VERSION="1_21_1"
 ARG SERVER_FILE="${MODPACK}Server.zip"
 # ARG BASE_URL="http://ftb.forgecdn.net/FTB2/modpacks/${MODPACK}"
 
