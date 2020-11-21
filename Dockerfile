@@ -10,4 +10,4 @@ USER minecraft
 
 RUN wget https://api.modpacks.ch/public/modpack/4/153/server/linux
 RUN chmod u+x linux
-RUN sed -i '2i /bin/sh /minecraft/CheckEula.sh' /minecraft/ServerStart.sh
+RUN sed -i '2i /bin/sh /minecraft/CheckEula.sh' /minecraft/linux
